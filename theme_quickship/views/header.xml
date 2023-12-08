@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Theme Header - Option -->
+    <template id="quickship_header_opt" inherit_id="website.snippet_options" name="quickship - Option">
+        <xpath expr="//we-select[@data-variable='header-template']" position="inside">
+            <we-button title="quickship"
+                data-customize-website-views="theme_quickship.header"
+                data-customize-website-variable="'quickship'"
+                data-img=""/>
+        </xpath>
+    </template>
+
+
+    <!-- Theme Header - Layout -->
+    <record id="theme_quickship.header" model="ir.ui.view">
+        <field name="name">Quickship Header</field>
+        <field name="type">qweb</field>
+        <field name="key">theme_quickship.header</field>
+        <field name="inherit_id" ref="website.layout"/>
+        <field name="mode">extension</field>
+        <field name="arch" type="xml">
+            <xpath expr="//header//nav" position="replace">
+                <t t-call="website.navbar">
+                    <t t-set="_navbar_classes" t-valuef="d-none d-lg-block p-0 shadow-sm"/>
+                    <div id="o_main_nav" class="container flex-wrap">
+                        <div class="o_header_hide_on_scroll d-grid align-items-center w-100 o_grid_header_3_cols pb-3">
+                            <ul class="navbar-nav align-items-center gap-1">
+                                <!-- Header Socoal Media -->
+                                <!-- TODO: check how can I set quickship company page? -->
+                                <div data-oe-model="ir.ui.view" data-oe-id="7184" data-oe-field="arch" data-oe-xpath="/data/xpath/li/div[1]" class="o_header_social_links d-flex align-items-center">
+                                    <div class="s_social_media o_not_editable oe_unmovable oe_unremovable" data-snippet="s_social_media" data-name="Social Media">
+                                        <h5 class="s_social_media_title d-none">Follow us</h5>
+                                        <a href="/website/social/facebook" class="s_social_media_facebook o_nav-link_secondary nav-link m-0 p-0 text-decoration-none" target="_blank">
+                                            <i class="fa fa-facebook fa-stack p-1 o_editable_media"></i>
+                                        </a>
+                                        <a href="/website/social/twitter" class="s_social_media_twitter o_nav-link_secondary nav-link m-0 p-0 text-decoration-none" target="_blank">
+                                            <i class="fa fa-twitter fa-stack p-1 o_editable_media"></i>
+                                        </a>
+                                        <a href="/website/social/instagram" class="s_social_media_instagram o_nav-link_secondary nav-link m-0 p-0 text-decoration-none" target="_blank">
+                                            <i class="fa fa-instagram fa-stack p-1 o_editable_media"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </ul>
+                            <!-- Brand -->
+                            <t t-call="website.placeholder_header_brand">
+                                <t t-set="_link_class" t-valuef="mx-auto mw-100"/>
+                            </t>
+                            <ul class="navbar-nav align-items-center gap-1 flex-wrap justify-content-end ms-auto">
+                                <!-- Sign In -->
+                                <!-- <t t-call="portal.placeholder_user_sign_in">
+                                    <t t-set="_link_class" t-valuef="o_navlink_background btn rounded-circle text-reset"/>
+                                </t> -->
+                                <!-- Contact Number -->
+                                <!-- Text element -->
+                                <t t-call="website.placeholder_header_text_element"/>
+                                
+                                <!-- Language Selector -->
+                                <t t-call="website.placeholder_header_language_selector">
+                                    <t t-set="_txt_class" t-valuef="small"/>
+                                    <t t-set="_btn_class" t-valuef="o_navlink_background rounded-pill py-1 text-reset"/>
+                                    <t t-set="_flag_class" t-valuef="m-2"/>
+                                    <t t-set="_dropdown_menu_class" t-valuef="dropdown-menu-end"/>
+                                </t>
+                                <!-- Call To Action -->
+                            </ul>
+                        </div>
+                        <div class="d-flex justify-content-center w-100">
+                            <!-- Navbar -->
+                            <t t-call="website.navbar_nav">
+                                <t t-set="_nav_class" t-valuef="pb-0"/>
+
+                                <!-- Menu -->
+                                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                    <t t-call="website.submenu">
+                                        <t t-set="item_class" t-valuef="nav-item"/>
+                                        <t t-set="link_class" t-valuef="nav-link"/>
+                                    </t>
+                                </t>
+                                <t t-call="website.placeholder_header_call_to_action"/>
+                            </t>
+                        </div>
+                        <!-- <ul class="navbar-nav align-items-center gap-1 flex-wrap justify-content-end ms-auto">
+                        </ul> -->
+                    </div>
+                </t>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -15,7 +15,10 @@
         # pages
         'data/pages/about_us.xml',
         'data/pages/page_not_found.xml',
-        
+
+        # header
+        'views/header.xml',
+
     ],
     'assets': {
         'web._assets_primary_variables': [
@@ -24,7 +27,7 @@
         'web._assets_frontend_helpers': [
             ('prepend', 'theme_quickship/static/src/scss/bootstrap_overriden.scss'),
         ],
-        'web.assests_frontend': [
+        'web.assets_frontend': [
             #'theme_quickship/static/src/scss/theme.scss',
             # Interactivity, js files
             # 'theme_quickship/static/src/js/theme.js',
