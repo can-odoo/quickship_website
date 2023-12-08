@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="oconus_pages_1" model="website.page">
+        <field name="name">OCONUS Page</field>
+        <field name="is_published" eval="True"/>
+        <field name="key">website_quickship.oconus_pages_1</field>
+        <field name="url">/oconus_pages_2</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+
+            <t name="Oconus Page" t-name="website_quickship.oconus_pages_1">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+
+                        <!-- top snipppet -->
+                        <section class="s_cover parallax bg-black-50 pt96 o_colored_level pb64" data-scroll-background-ratio="1" data-snippet="s_cover" data-name="Cover" style="height:700px; overflow: hidden;">
+                            <span class="s_parallax_bg oe_img_bg" style="background-image: url('/website_quickship/static/src/img/Asset 30@2x-8.png'); background-position: 50% 0%;"/>
+                            <span class="overlay_image_1" style="background-image: url('/website_quickship/static/src/img/blue_shadow.png');"/>
+                            <div class="o_we_bg_filter" style="background-image: linear-gradient(135deg, rgba(47, 128, 237, 0.5) 0%, rgba(178, 255, 218, 0.5) 100%);"/>
+                            <div class="s_allow_columns container">
+                                <div class="row">
+                                    <div class="col-lg-12 o_colored_level">
+                                        <h1 class="display-3" style="text-align: center; font-weight: bold; margin-top: 300px;">Car Shipping To Alaska</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- text-text snippet -->
+                        <section class="s_timeline pt24 pb48 o_colored_level" data-snippet="s_timeline" data-name="Timeline" style="background-image: none;">
+                            <div class="container s_timeline_line">
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_content d-flex">
+                                    <div/>
+                                        <div class="s_timeline_card s_card card bg-white w-100 border-0" data-name="Card" data-snippet="s_card">
+                                            <div class="card-body">
+                                                <div class="d-flex flex-column align-items-center">
+                                                    <div style="position: absolute;">
+                                                        <h3>COST-EFFECTIVE</h3>
+                                                    </div>
+                                                        <img src="/website_quickship/static/src/img/01.png" class='x_zeroOne_png' alt="Image Description" style="margin-inline-start: auto;"/>
+                                                </div>
+                                                <div class="card-text small s_allow_columns">
+                                                    <p class="o_default_snippet_text" style="text-align: center;">Car shipping to Hawaii provides a convenient<br/>
+                                                        and time-saving solution, eliminating the need<br/>
+                                                        and time-saving solution, eliminating the need<br/>
+                                                        for a lengthy and challenging drive across the<br/>
+                                                        mainland. Professional services streamline the<br/>
+                                                        process, allowing you to focus on other aspects<br/>
+                                                        of your move.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div class="s_timeline_card s_card card bg-white w-100 border-0 mt-lg-auto" data-name="Card" data-snippet="s_card">
+                                            <div class="card-body">
+                                                <div class="d-flex flex-column align-items-center">
+                                                    <div style="position: absolute;">
+                                                        <h3>PROTECTION FROM<br/>HARSH CONDITIONS</h3>
+                                                    </div>
+                                                    <img src="/website_quickship/static/src/img/02.png" class="x_text-logo mr-64" alt="Image Description" style="margin-inline-start: auto;"/>
+                                                </div>
+                                                <div class="card-text small s_allow_columns">
+                                                    <p class="o_default_snippet_text" style="text-align: center;">Shipping your car helps preserve its condition<br/>
+                                                        during transit. Specialized carriers secure and<br/>
+                                                        protect the vehicle, reducing the risk of wear<br/>
+                                                        and tear associated with long drives across<br/>
+                                                        varied terrains. This is particularly beneficial for<br/>
+                                                        valuable or classic cars.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- text - block -->
+                        <section class="s_text_block pt40 pb40 o_colored_level" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                            <div class="container s_allow_columns">
+                                <!-- TODO for question mark symbol -->
+                                <h3 class="fs-2"><em>WHY CHOOSE QUICKSHIP FOR CAR</em><br/><em> SHIPPING TO ALASKA</em></h3>
+                            </div>
+                            <div class="container s_allow_columns">
+                                <p class="o_default_snippet_text">Discover the optimal choice for your car shipping to Alaska with QuickShip, where a commitment to excellence meets the vast
+                                    landscapes of the Last Frontier. Unveil a seamless journey marked by efficiency, specialized care for your vehicle, and a reputation
+                                    for customer satisfaction. Here are some reasons why choosing QuickShip ensures reliable and stress-free transportation to
+                                    Alaska.
+                                </p>
+                            </div>
+                        </section>
+
+                        <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_text_image" data-name="Text - Image" style="background-image: none;">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 pt16 pb16 o_colored_level">
+                                        <ul class="">
+                                            <li><span></span><em>Efficiency and Timeliness</em></li>
+                                            <li><span></span><em>Specialized Vehicle Care</em></li>
+                                            <li><span></span><em>Reliability and Security</em></li>
+                                            <li><span></span><em>Transparent and Competitive Pricing</em></li>
+                                            <li><span></span><em>Customer-Centric Approach</em></li>
+                                            <li><span></span><em>Experienced Team</em></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 pt16 pb16 o_colored_level">
+                                        <img src="/website_quickship/static/src/img/oconus_page_2.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-mimetype="image/jpeg" data-original-id="257" data-original-src="/website_quickship/static/src/img/oconus_page_2.png" data-mimetype-before-conversion="image/jpeg"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="s_title pt40 pb40 o_colored_level" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-image: none;">
+                            <div class="s_allow_columns container">
+                                <h2 class="h3 fs-2" style="text-align: center;"><em>HOW DOES CAR SHIPPING</em></h2><h2 class="h3 fs-2" style="text-align: center;"><em>&amp;nbsp;TO ALASKA WORKS?</em><span class="h3-fs">​</span><br/></h2>
+                            </div>
+                        </section>
+
+                        <!-- timeline -->
+                        <section class="s_timeline pt24 pb48 o_colored_level" data-snippet="s_timeline" data-name="Timeline" style="background-image: none;">
+                            <div class="s_timeline_line container">
+                                <!-- text - image -->
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_content d-flex">
+                                        <div class="s_timeline_card s_card card bg-white w-100 border-0" data-name="Card" data-snippet="s_card">
+                                            <div class="card-body">
+                                                <div class="row align-items-center">
+                                                    <div class="col pt16 pb16 o_colored_level">
+                                                        <img src="/website_quickship/static/src/img/Asset 29@2x-8.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-mimetype="image/jpeg" data-original-id="246" data-original-src="/website_quickship/static/src/img/car_shipping_image_1.png" data-mimetype-before-conversion="image/jpeg"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div class="s_timeline_card s_card card bg-white w-100 border-0" data-name="Card" data-snippet="s_card">
+                                            <div class="card-body">
+                                                <div class="col pt16 pb16 o_colored_level">
+                                                    <div class="d-flex">
+                                                        <h3 class="o_default_snippet_text">Quote and Booking.</h3>
+                                                        <img src="/website_quickship/static/src/img/01.png" class='x_text-logo' alt="Image Description"/>
+                                                    </div>
+                                                    <p class="o_default_snippet_text">Begin by requesting a quote from a reputable car shipping
+                                                        service. Provide details about your vehicle, pick-up location,
+                                                        and desired destination in Alaska. Upon receiving a quote,
+                                                        proceed to book the shipping service, confirming the
+                                                        details and timeline.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- image - text -->
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_content d-flex">
+                                        <div class="s_timeline_card s_card card bg-white w-100 border-0" data-name="Card" data-snippet="s_card">
+                                            <div class="card-body">
+                                                <div class="col pt16 pb16 o_colored_level">
+                                                    <div class="d-flex">
+                                                        <h3 style="position: absolute;" class="o_default_snippet_text">Preparation and Documentation.</h3>
+                                                        <img src="/website_quickship/static/src/img/02.png" class='x_text-logo' alt="Image Description" style="margin-inline-start: auto;"/>
+                                                    </div>
+                                                    <p class="o_default_snippet_text mt-2">Prepare your vehicle for shipping by ensuring it's clean
+                                                        and removing personal belongings. Complete necessary
+                                                        paperwork, including the Bill of Lading and other required
+                                                        documentation. The car shipping service will guide you
+                                                        through these preparations.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div class="s_timeline_card s_card card bg-white w-100 border-0" data-name="Card" data-snippet="s_card">
+                                            <div class="card-body">
+                                                <div class="row align-items-center">
+                                                    <div class="col pt16 pb16 o_colored_level">
+                                                        <img src="/website_quickship/static/src/img/Asset 28@2x-8.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-mimetype="image/jpeg" data-original-id="246" data-original-src="/website_quickship/static/src/img/car_shipping_image_2.png" data-mimetype-before-conversion="image/jpeg"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- text - image -->
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_content d-flex">
+                                        <div class="s_timeline_card s_card card bg-white w-100 border-0" data-name="Card" data-snippet="s_card">
+                                            <div class="card-body">
+                                                <div class="row align-items-center">
+                                                    <div class="col pt16 pb16 o_colored_level">
+                                                        <img src="/website_quickship/static/src/img/Asset 27@2x-8.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-mimetype="image/jpeg" data-original-id="246" data-original-src="/website_quickship/static/src/img/car_shipping_image_3.png" data-mimetype-before-conversion="image/jpeg"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div class="s_timeline_card s_card card bg-white w-100 border-0" data-name="Card" data-snippet="s_card">
+                                            <div class="card-body">
+                                                <div class="col pt16 pb16 o_colored_level">
+                                                    <h3>Vehicle Pickup and</h3>
+                                                    <h3 style="position: absolute;">Transportation</h3>
+                                                    <img src="/website_quickship/static/src/img/03.png" class="x_text-logo me-xxl-auto ms-auto mt-sm-n5" alt="Image Description" style=""/>
+                                                    <p class="o_default_snippet_text mt-2">The shipping service will arrange for the pickup of your
+                                                        vehicle at the designated location. Specialized carriers will
+                                                        transport your vehicle to Alaska. Throughout the journey, y
+                                                        our vehicle will be secured to prevent any potential
+                                                        damage during transit.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- image - text -->
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_content d-flex">
+                                        <div class="s_timeline_card s_card card bg-white w-100 border-0" data-name="Card" data-snippet="s_card">
+                                            <div class="card-body">
+                                                <div class="col pt16 pb16 o_colored_level">
+                                                    <div class="d-flex">
+                                                        <h3 class="o_default_snippet_text end-0 mx-xxl-5 my-sm-2" style="position: absolute;">Arrival and Inspection.</h3>
+                                                        <img src="/website_quickship/static/src/img/04.png" class='x_text-logo' alt="Image Description" style="margin-inline-start: auto;"/>
+                                                    </div>
+                                                    <p class="o_default_snippet_text">Upon arrival in Alaska, your vehicle will be unloaded and
+                                                        undergo an inspection to ensure it's in the same condition
+                                                        as when it was loaded for transportation.</p>
+                                                    <p class="o_default_snippet_text">You or a designated representative should be present during
+                                                        this inspection. Once the inspection is complete and all is in
+                                                        order, you can take possession of your vehicle.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div class="s_timeline_card s_card card bg-white w-100 border-0" data-name="Card" data-snippet="s_card">
+                                            <div class="card-body">
+                                                <div class="row align-items-center">
+                                                    <div class="col pt16 pb16 o_colored_level">
+                                                        <img src="/website_quickship/static/src/img/Asset 26@2x-8.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-mimetype="image/jpeg" data-original-id="246" data-original-src="/website_quickship/static/src/img/car_shipping_image_4.png" data-mimetype-before-conversion="image/jpeg"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- about us text -->
+                        <section class="s_title pt40 pb40 o_colored_level" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-image: none;">
+                            <div class="container s_allow_columns">
+                                <h1 style="text-align: center;"><strong>
+                                    <font>See What our Customers</font></strong>
+                                </h1>
+                                <h1 style="text-align: center;"><strong>
+                                    <font>&amp;nbsp;have to say about us</font></strong>
+                                </h1>
+                                <ol style="text-align: center;" class="small list-unstyled">
+                                    <li>Explore the testimonials of our satisfied customers and witness the</li>
+                                    <li>peace of mind that comes with choosing QuickShip for your car shipping</li>
+                                    <li>needs to the breathtaking landscapes of Hawaii.<br/></li>
+                                </ol>
+                            </div>
+                        </section>
+
+                    </div>
+                </t>
+            </t>
+
+        </field>
+    </record>
+
+</odoo>
