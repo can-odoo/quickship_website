@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- HEADER -->
+    <!-- ======================================= -->
+
+    <!-- deactivating default header  -->
+    <!-- <record id="website.template_header_default" model="ir.ui.view">
+        <field name="active" eval="False"/>   
+    </record> -->
+
+    <!-- activat contact header  -->
+    <!-- <record id="website.template_header_search" model="ir.ui.view">
+        <field name="active" eval="True"/>
+    </record> -->
+
+    <!-- FOOTER -->
+    <!-- ======================================= -->
+    
+    <!-- deactivate default footer -->
+    <!-- <record id="website.footer_custom" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record> -->
+    <!-- activat contact footer  -->
+    <!-- <record id="website.template_footer_contact" model="ir.ui.view">
+        <field name="active" eval="True" />
+    </record> -->
+
+    <!-- No Copyright -->
+    <!-- <record id="website.footer_no_copyright" model="ir.ui.view">
+        <field name="active" eval="True"/>        
+    </record> -->
+</odoo>
+

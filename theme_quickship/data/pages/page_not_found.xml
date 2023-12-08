@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="404" inherit_id="http_routing.404">
+        <xpath expr="//div[hasclass('oe_structure')]" position="replace">
+
+            <!-- Title -->
+            <t t-set="additional_title" t-value="'404 - Page not found'"/>
+
+            <!-- Content -->
+            <div class="oe_structure">
+                <section class="s_title">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center pt80 pb80">
+                                <h1 class="mb-0"><span style="font-size: 62px;">404</span></h1>
+                                <h2 class="mb-5"><font class="text-o-color-2">Page not found</font></h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </xpath>
+    </template>
+
+</odoo>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Creating About Us Menu -->
+    <!-- <record id="menu_about_us" model="website.menu">
+        <field name="name">About us</field>
+        <field name="url">/about-us</field>
+        <field name="parent_id" search="[
+            ('url', '=', '/default-main-menu'),
+            ('website_id', '=', 1)]"/>
+        <field name="website_id">1</field>
+        <field name="sequence" type="int">10</field>
+    </record> -->
+</odoo>
+
