@@ -1,12 +1,12 @@
 // Presets
 
 $o-website-values-palettes: (
-    ( 
+    (
         // colors
         'color-palettes-name': 'quickship',
 
         // header template
-        // 'header-template': 'quickship',
+        'header-template': 'Quickship',
     ),
 );
 
@@ -30,11 +30,14 @@ $o-theme-font-configs: (
 
 $o-color-palettes: map-merge($o-color-palettes,
         ('quickship': (
-            'o-color-1': #bedb39,  // primary
-            'o-color-2': #2c3e50,  // secondary
-            'o-color-3': #f2f2f2,
-            'o-color-4': #ffffff,
-            'o-color-5': #000000,
+            'o-color-1':                    #bedb39,  // primary
+            'o-color-2':                    #2c3e50,  // secondary
+            'o-color-3':                    #f2f2f2,
+            'o-color-4':                    #ffffff,
+            'o-color-5':                    #000000,
+
+            'o-cc2-text':                   'o-color-4',
+            'o-cc2-headings':               'o-color-4',
         ),
     ),
 );

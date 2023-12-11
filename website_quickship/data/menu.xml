@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Delete Default 'Home' item -->
+    <delete model="website.menu" search="[('url','in', ['/', '/']), ('website_id', '=', 1)]"/>
+
+    <!-- Delete Default 'Contact us' item -->
+    <delete model="website.menu" search="[('url','in', ['/', '/contactus']), ('website_id', '=', 1)]"/>
+
+    <!-- How It Works -->
+    <record id="hiw_menu" model="website.menu">
+        <field name="name">How It Works</field>
+        <field name="url">/how_it_works</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" search="[
+            ('url', '=', '/default-main-menu'),
+            ('website_id', '=', 1)]"/>
+        <field name="sequence" type="int">1</field>
+    </record>
+
+    <!-- service menu -->
+    <record id="services_menu" model="website.menu">
+        <field name="name">Services</field>
+        <field name="url">/service</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" search="[
+            ('url', '=', '/default-main-menu'),
+            ('website_id', '=', 1)]"/>
+        <field name="sequence" type="int">2</field>
+    </record>
+
+    <!-- service dropwon -->
+    <record id="menu_services_item_1" model="website.menu">
+        <field name="name">Item 1</field>
+        <field name="url">/dropdown/item-1</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.services_menu"/>
+        <field name="sequence" type="int">1</field>
+    </record>
+    <record id="menu_services_item_2" model="website.menu">
+        <field name="name">Item 2</field>
+        <field name="url">/dropdown/item-2</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.services_menu"/>
+        <field name="sequence" type="int">2</field>
+    </record>
+    <record id="menu_services_item_3" model="website.menu">
+        <field name="name">Item 3</field>
+        <field name="url">/dropdown/item-3</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.services_menu"/>
+        <field name="sequence" type="int">3</field>
+    </record>
+
+    <!-- About us -->
+    <record id="about_us_menu" model="website.menu">
+        <field name="name">About us</field>
+        <field name="url">/about-us</field>
+        <field name="parent_id" search="[
+            ('url', '=', '/default-main-menu'),
+            ('website_id', '=', 1)]"/>
+        <field name="website_id">1</field>
+        <field name="sequence" type="int">3</field>
+    </record>
+
+</odoo>
