@@ -4,7 +4,7 @@
     <!-- Branding -->
     <record id="logo" model="ir.attachment">
         <field name="name">Quickship Logo</field>
-        <field name="datas" type="base64" file="theme_quickship/static/src/img/1.png"/>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/1.png"/>
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True"/>
     </record>
