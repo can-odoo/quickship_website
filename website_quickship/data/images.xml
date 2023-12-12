@@ -56,4 +56,112 @@
         <field name="public" eval="True"/>
     </record>
 
+    <!-- International shipping Hawaii -->
+    <record id="qs_hawaii_bg_accent" model="ir.attachment">
+        <field name="name">qucikship_hawaii_bg_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/hawaii/hawaii.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_common_accent" model="ir.attachment">
+        <field name="name">qucikship_common_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/common/text_image.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_blue_shade_accent" model="ir.attachment">
+        <field name="name">qucikship_blue_shade_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/common/blue_shadow.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_hawaii_quote_accent" model="ir.attachment">
+        <field name="name">qucikship_hawaii_quote_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/hawaii/quote.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_hawaii_preperation_accent" model="ir.attachment">
+        <field name="name">qucikship_hawaii_preperation_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/hawaii/preperation.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_hawaii_pickup_accent" model="ir.attachment">
+        <field name="name">qucikship_hawaii_pickup_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/alaska/pickup.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_hawaii_arrival_accent" model="ir.attachment">
+        <field name="name">qucikship_hawaii_arrival_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/hawaii/arrival.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <!-- International shipping Alaska -->
+    <record id="qs_alaska_bg_accent" model="ir.attachment">
+        <field name="name">qucikship_alaska_bg_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/alaska/alaska.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_alaska_quote_accent" model="ir.attachment">
+        <field name="name">qucikship_alaska_quote_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/alaska/quote.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_alaska_preperation_accent" model="ir.attachment">
+        <field name="name">qucikship_alaska_preperation_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/alaska/preperation.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_alaska_pickup_accent" model="ir.attachment">
+        <field name="name">qucikship_alaska_pickup_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/alaska/pickup.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_alaska_arrival_accent" model="ir.attachment">
+        <field name="name">qucikship_alaska_arrival_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/alaska/arrival.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <!-- International shipping Puerto Rico -->
+    <record id="qs_puertorico_bg_accent" model="ir.attachment">
+        <field name="name">qucikship_puertorico_bg_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/alaska/alaska.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_puertorico_quote_accent" model="ir.attachment">
+        <field name="name">qucikship_puertorico_quote_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/puertorico/quote.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_puertorico_preperation_accent" model="ir.attachment">
+        <field name="name">qucikship_puertorico_preperation_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/puertorico/preperation.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_puertorico_pickup_accent" model="ir.attachment">
+        <field name="name">qucikship_puertorico_pickup_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/puertorico/pickup.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_puertorico_arrival_accent" model="ir.attachment">
+        <field name="name">qucikship_puertorico_arrival_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/international_service/puertorico/arrival.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
 </odoo>
