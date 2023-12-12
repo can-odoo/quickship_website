@@ -28,11 +28,5 @@
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True"/>
     </record>
-    <record id="qs_footer_bg_shape" model="ir.attachment">
-        <field name="name">qucikship_footer_bg_shape</field>
-        <field name="datas" type="base64" file="website_quickship/static/src/img/footer/test.png"/>
-        <field name="res_model">ir.ui.view</field>
-        <field name="public" eval="True"/>
-    </record>
 
 </odoo>

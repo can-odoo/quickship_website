@@ -15,6 +15,7 @@
 
         # pages
         'data/pages/about_us.xml',
+        'data/pages/contact_us.xml',
         'data/pages/page_not_found.xml',
 
         # header

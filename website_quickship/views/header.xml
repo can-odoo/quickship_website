@@ -76,7 +76,7 @@
                             <!-- <button class="btn btn-primary">Contact Us</button> -->
                             <ul id="top_menu" role="menu" class="nav navbar-nav pb-0">
                                 <li class="nav-item">
-                                    <a role="button" href="/contactus" class="btn btn-primary nav-link">
+                                    <a role="button" href="/contact-us" class="btn btn-primary nav-link">
                                         <span>Contact Us</span>
                                     </a>
                                 </li>
