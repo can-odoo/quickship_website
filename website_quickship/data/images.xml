@@ -2,9 +2,35 @@
 <odoo>
 
     <!-- Branding -->
-    <record id="logo" model="ir.attachment">
-        <field name="name">Quickship Logo</field>
-        <field name="datas" type="base64" file="website_quickship/static/src/img/1.png"/>
+    <record id="qs_logo" model="ir.attachment">
+        <field name="name">quickship_logo</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/header/header_logo.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <!-- Footer background -->
+    <record id="qs_footer_bg" model="ir.attachment">
+        <field name="name">qucikship_footer_bg</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/footer/footer_bg.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_footer_bg_accent" model="ir.attachment">
+        <field name="name">qucikship_footer_bg_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/footer/footer_bg_accent.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_footer_bg_shape" model="ir.attachment">
+        <field name="name">qucikship_footer_bg_shape</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/footer/footer_bg_shape.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_footer_bg_shape" model="ir.attachment">
+        <field name="name">qucikship_footer_bg_shape</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/footer/test.png"/>
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True"/>
     </record>

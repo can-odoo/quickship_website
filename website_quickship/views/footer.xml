@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Theme Header - Option -->
+    <template id="quickship_footer_opt" inherit_id="website.snippet_options" name="QuickshipFooter - Option">
+        <xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+            <we-button title="Quickship"
+                data-customize-website-views="website_quickship.footer"
+                data-customize-website-variable="'QuickshipFooter'"
+                data-img="/website_quickship/static/src/img/footer/footer_logo.png"/>
+        </xpath>
+    </template>
+
+    <!-- Theme Footer - Layout -->
+    <record id="website_quickship.footer" model="ir.ui.view">
+        <field name="inherit_id" ref="website.layout"/>
+        <field name="key">website_quickship.footer</field>
+        <field name="mode">extension</field>
+        <field name="name">Quickship Footer</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <section class="s_text_block pt32 pb16 bg_accent_img" data-snippet="s_text_block" data-name="Text">
+                        <div class="container mb64 mt64 pb64 pt64">
+                            <div class="row">
+                                <div class="col-lg-4 pb32">
+                                    <a href="/" class="o_footer_logo logo">
+                                        <img src="/website_quickship/static/src/img/footer/footer_logo.png" class="img-fluid w-75" aria-label="Logo of MyCompany" title="Quickship Cars" role="img"/>
+                                    </a>
+                                    <div class="m-2">
+                                        <div class="smaller text-muted">Get an instant quote for your vehicle, sign up, track your delivery and receive it at your desired destination.</div>
+                                        <div class="d-flex pt16 pb16">
+                                            <a href="/website/social/twitter" class="me-n5" target="_blank">
+                                                <img class="w-50" src="website_quickship/static/src/img/footer/fb_footer.png"/>
+                                            </a>
+                                            <a href="/website/social/twitter" class="me-n5" target="_blank">
+                                                <img class="w-50" src="website_quickship/static/src/img/footer/tweet.png"/>
+                                            </a>
+                                            <a href="/website/social/instagram" class="me-n5" target="_blank">
+                                                <img class="w-50" src="website_quickship/static/src/img/footer/insta.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 pt24 pb24">
+                                    <h5 class="mb-3"><b>Navigation</b></h5>
+                                    <ul class="list-unstyled">
+                                        <li><a href="/contactus">Contact us</a></li>
+                                        <li><a href="/aboutus">About us</a></li>
+                                        <li><a href="#">Terms &amp; Conditions</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms of Use</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 pt24 pb24">
+                                    <h5 class="mb-3"><b>Company LLC.</b></h5>
+                                    <p>Approved by the US Department<br/>of transportation.<br/>
+                                    <br>MC Number: 1356416</br><br>DOT Number: 3785111</br>
+                                    <br>Bond Number: 4001360</br></p>
+                                </div>
+                                <div class="col-lg-3 pt24 pb24">
+                                    <h5 class="mb-3"><b>Contact</b></h5>
+                                    <ul class="list-unstyled mb-2">
+                                        <li><i class="fa fa-envelope fa-fw me-2"/><span><a href="mailto:info@quickshipcars.com">info@quickshipcars.com</a></span></li>
+                                        <li><i class="fa fa-phone fa-fw me-2"/><span class="o_force_ltr"><a href="tel:+1(888)361-5514">+1(888)361-5514</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center pt16 pb16" >@All Rights Reserved.</div>
+                    </section>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

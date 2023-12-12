@@ -3,10 +3,13 @@
 $o-website-values-palettes: (
     (
         // colors
-        'color-palettes-name': 'quickship',
+        'color-palettes-name':              'quickship',
 
         // header template
-        'header-template': 'Quickship',
+        'header-template':                  'Quickship',
+
+        // Footer
+        'footer-template':                  'Quickship',
     ),
 );
 
@@ -36,8 +39,9 @@ $o-color-palettes: map-merge($o-color-palettes,
             'o-color-4':                    #ffffff,
             'o-color-5':                    #000000,
 
-            'o-cc2-text':                   'o-color-4',
-            'o-cc2-headings':               'o-color-4',
+            // 'o-cc2-text':                   'o-color-1',
+            // 'o-cc2-headings':               'o-color-1',
+            // 'o-cc1-headings':               'o-color-1',
         ),
     ),
 );
