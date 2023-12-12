@@ -31,13 +31,13 @@
                                     <div class="s_social_media o_not_editable oe_unmovable oe_unremovable" data-snippet="s_social_media" data-name="Social Media">
                                         <h5 class="s_social_media_title d-none">Follow us</h5>
                                         <a href="/website/social/facebook" class="s_social_media_facebook o_nav-link_secondary nav-link m-0 p-0 text-decoration-none" target="_blank">
-                                            <i class="fa fa-facebook fa-stack p-1 o_editable_media"></i>
+                                            <i class="fa fa-facebook fa-stack p-1 o_editable_media text-o-color-4"></i>
                                         </a>
                                         <a href="/website/social/twitter" class="s_social_media_twitter o_nav-link_secondary nav-link m-0 p-0 text-decoration-none" target="_blank">
-                                            <i class="fa fa-twitter fa-stack p-1 o_editable_media"></i>
+                                            <i class="fa fa-twitter fa-stack p-1 o_editable_media text-o-color-4"></i>
                                         </a>
                                         <a href="/website/social/instagram" class="s_social_media_instagram o_nav-link_secondary nav-link m-0 p-0 text-decoration-none" target="_blank">
-                                            <i class="fa fa-instagram fa-stack p-1 o_editable_media"></i>
+                                            <i class="fa fa-instagram fa-stack p-1 o_editable_media text-o-color-4"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -71,9 +71,16 @@
                                         <t t-set="link_class" t-valuef="nav-link"/>
                                     </t>
                                 </t>
-                                <!-- <t t-call="website.placeholder_header_call_to_action"/> -->
                             </t>
-                            <button class="btn btn-primary">Contact Us</button>
+                            <!-- <t t-call="website.placeholder_header_call_to_action"/> -->
+                            <!-- <button class="btn btn-primary">Contact Us</button> -->
+                            <ul id="top_menu" role="menu" class="nav navbar-nav pb-0">
+                                <li class="nav-item">
+                                    <a role="button" href="/contactus" class="btn btn-primary nav-link">
+                                        <span>Contact Us</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         <!-- <ul class="navbar-nav align-items-center gap-1 flex-wrap justify-content-end ms-auto">
                                 <button class="btn btn-primary">Contact Us</button>

@@ -22,17 +22,13 @@
     <!-- ======================================= -->
 
     <!-- deactivate default footer -->
-    <!-- <record id="website.footer_custom" model="ir.ui.view">
+    <record id="website.footer_custom" model="ir.ui.view">
         <field name="active" eval="False"/>
-    </record> -->
-    <!-- activat contact footer  -->
-    <!-- <record id="website.template_footer_contact" model="ir.ui.view">
-        <field name="active" eval="True" />
-    </record> -->
+    </record>
 
     <!-- No Copyright -->
-    <!-- <record id="website.footer_no_copyright" model="ir.ui.view">
+    <record id="website.footer_no_copyright" model="ir.ui.view">
         <field name="active" eval="True"/>
-    </record> -->
+    </record>
 </odoo>
 
