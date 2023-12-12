@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="contact_us">
+        <t t-call="website.layout">
+            <!-- Contact Us Button snippet -->
+            <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt168 pb96 ">
+                <span class="s_parallax_bg opacity-50" style="background-image: url('/website_quickship/static/src/img/contact_us/contactus_1.png'); background-size:contain; background-repeat: repeat;"/>
+                <div class="container s_allow_columns text-center mt-5">
+                    <button type="button"
+                        class="btn btn-outline-light border border-light border-3 rounded-pill">
+                        <span class="display-6 px-5 fw-bolder"> CONTACT US </span>
+                    </button>
+                </div>
+            </section>
+            <section style="background-image: url(/website_quickship/static/src/img/contact_us/contactus_2.png); background-size:cover;">
+                <section class="s_references pt48 pb32 o_colored_level" >
+                    <div class="w-75 m-auto">
+                        <div class="row">
+                            <div class="col-lg-12 o_colored_level">
+                                <h3 class="text-center fst-italic pb32">Get In Touch With Us!</h3>
+                            </div>
+                            <div class="col-lg-1"></div>
+                            <div class="o_colored_level col-lg-3 m-auto text-center border-end">
+                                <img src="/website_quickship/static/src/img/contact_us/contactus_gitwu_1.png"
+                                    class="img img-fluid m-3 o_image_64_contain" alt="" loading="lazy"/>
+                                <h5>Call Us</h5>
+                                <p>For Support &amp; Reservations <br/> +1 (888) 361-5514</p>
+                            </div>
+                            <div class="o_colored_level col-lg-4 m-auto text-center border-end">
+                                <img src="/website_quickship/static/src/img/contact_us/contactus_gitwu_2.png"
+                                    class="img img-fluid m-3 o_image_64_contain" alt="" loading="lazy"/>
+                                <h5>Service Time</h5>
+                                <p>The Office Hours <br/> Mon-Sun 8am to 5pm EST</p>
+                            </div>
+                            <div class="o_colored_level col-lg-3 m-auto text-center">
+                                <img src="/website_quickship/static/src/img/contact_us/contactus_gitwu_3.png"
+                                    class="img img-fluid m-3 o_image_64_contain" alt="" loading="lazy"/>
+                                <h5>Email Us</h5>
+                                <p>Send Us Email info@quickshipcars.com</p>
+                            </div>
+                            <div class="col-lg-1"></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt24 pb24 o_colored_level">
+                    <div class="o_container_small s_allow_columns text-center ">
+                        <buttom class="btn btn-primary o_default_snippet_text rounded-pill" href="/contactus"> Call Us Now </buttom>
+                        <p class="lead o_default_snippet_text pt48 fw-bold"> IF YOU GOT ANY QUESTIONS <br/>
+                            PLEASE DO NOT HESITATE TO SEND US A MESSAGE. </p>
+                    </div>
+                </section>
+                <!-- contact us form -->
+                <section class="s_website_form o_colored_level pt24 pb24" style="background-image: none;">
+                    <div class="o_container_small">
+                        <form action="/website/form/" method="post" enctype="multipart/form-data"
+                            class="o_mark_required">
+                            <div class="s_website_form_rows row s_col_no_bgcolor w-75 m-auto text-center">
+                                <input class="form-control s_website_form_input bg-primary mb-3" type="text"
+                                    name="Your Name" placeholder="YOUR NAME"/>
+                                <input class="form-control s_website_form_input bg-primary mb-3" type="email"
+                                    name="email_from" placeholder="Your Email"/>
+                                <textarea class="form-control s_website_form_input bg-primary mb-3"
+                                    name="Your Message" placeholder="Your Message"> </textarea>
+                                <div class="mb-0 py-2 col-12 s_website_form_submit text-center">
+                                    <a href="#" role="button" class="btn btn-primary rounded-pill">Submit</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </section>
+            <!-- Social media links -->
+            <section class="s_title o_colored_level pt24 pb24">
+                <div class="s_allow_columns container">
+                    <h4 class="text-center fst-italic pb18 fw-bold">
+                        Connect With Us !
+                    </h4>
+                    <div class="s_social_media o_not_editable text-center">
+                        <h4 class="s_social_media_title d-none o_default_snippet_text">Social Media</h4>
+                        <a href="/website/social/facebook" class="s_social_media_facebook m-2" target="_blank">
+                            <img class="o_image_40_cover" src="/website_quickship/static/src/img/contact_us/contactus_sm_1.png" alt=""/>
+                        </a>
+                        <a href="/website/social/pinterest" class="s_social_media_pinterest m-2" target="_blank">
+                            <img class="o_image_40_cover" src="/website_quickship/static/src/img/contact_us/contactus_sm_2.png" alt=""/>
+                        </a>
+                        <a href="/website/social/twitter" class="s_social_media_twitter m-2" target="_blank">
+                            <img class="o_image_40_cover" src="/website_quickship/static/src/img/contact_us/contactus_sm_3.png" alt=""/>
+                        </a>
+                        <a href="/website/social/whatsapp" class="s_social_media_whatsapp m-2" target="_blank">
+                            <img class="o_image_40_cover" src="/website_quickship/static/src/img/contact_us/contactus_sm_4.png" alt=""/>
+                        </a>
+                        <a href="/website/social/instagram" class="s_social_media_instagram m-2" target="_blank">
+                            <img class="o_image_40_cover" src="/website_quickship/static/src/img/contact_us/contactus_sm_5.png" alt=""/>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="s_map pb56 pt56 o_half_screen_height">
+                <div class="map_container">
+                    <iframe class="s_map_embedded o_not_editable"
+                        src="https://maps.google.com/maps?q=250%20Executive%20Park%20Blvd%2C%20Suite%203400%20San%20Francisco%20California%20(US)%20United%20States&amp;t=m&amp;z=12&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                        width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0"
+                        marginwidth="0" />
+                </div>
+            </section>
+            <section class="text-center py-3">
+                <span> Get an instant quote for your vehicle, sign up, track your delivery and receive it at your desired destination. </span>
+            </section>
+        </t>
+    </template>
+    <record id="contactus" model="website.page">
+        <field name="name">Contact Us</field>
+        <field name="is_published" eval="True"/>
+        <field name="url">/contact-us</field>
+        <field name="header_overlay" eval="True"/>
+        <field name="view_id" ref="contact_us"/>
+        <field name="track" eval="True"/>
+    </record>
+</odoo>
