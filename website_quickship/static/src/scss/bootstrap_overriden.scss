@@ -1,2 +1,9 @@
 $enable-responsive-font-sizes:      true;
 
+//  TODO: handle header menu submenu dropdown
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    left: 50%;
+    overflow: unset !important;
+    top: 100%;
+}

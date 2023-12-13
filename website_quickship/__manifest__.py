@@ -31,6 +31,7 @@
             ('prepend', 'website_quickship/static/src/scss/bootstrap_overriden.scss'),
         ],
         'web.assets_frontend': [
+            'website_quickship/static/src/scss/layout/header.scss',
             'website_quickship/static/src/scss/layout/footer.scss',
             # Interactivity, js files
             # 'website_quickship/static/src/js/theme.js',

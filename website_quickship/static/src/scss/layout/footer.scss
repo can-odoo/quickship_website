@@ -1,4 +1,10 @@
-.bg_accent_img {
+.x_bg_accent_img {
     background-image: url('/web/image/website_quickship.qs_footer_bg_accent'),
                       url('/web/image/website_quickship.qs_footer_bg');
+}
+
+.x_ft_shape {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

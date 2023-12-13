@@ -9,6 +9,14 @@
         <field name="public" eval="True"/>
     </record>
 
+    <!-- Header -->
+    <record id="qs_header_accent" model="ir.attachment">
+        <field name="name">qucikship_header_accent</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/header/header_accent.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
     <!-- Footer background -->
     <record id="qs_footer_bg" model="ir.attachment">
         <field name="name">qucikship_footer_bg</field>
@@ -25,6 +33,25 @@
     <record id="qs_footer_bg_shape" model="ir.attachment">
         <field name="name">qucikship_footer_bg_shape</field>
         <field name="datas" type="base64" file="website_quickship/static/src/img/footer/footer_bg_shape.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <!-- Footer Social Media Images -->
+    <record id="qs_fb" model="ir.attachment">
+        <field name="name">qs_fb</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/footer/fb_footer.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_twitter" model="ir.attachment">
+        <field name="name">qs_twitter</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/footer/insta.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_insta" model="ir.attachment">
+        <field name="name">qucikship_insta</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/footer/tweet.png"/>
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True"/>
     </record>

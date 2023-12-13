@@ -20,8 +20,8 @@
         <field name="arch" type="xml">
             <xpath expr="//div[@id='footer']" position="replace">
                 <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
-                    <section class="s_text_block pt32 pb16 bg_accent_img" data-snippet="s_text_block" data-name="Text">
-                        <div class="container mb64 mt64 pb64 pt64">
+                    <section class="s_text_block pt32 x_bg_accent_img" data-snippet="s_text_block" data-name="Text">
+                        <div class="container mt64 pt64">
                             <div class="row">
                                 <div class="col-lg-4 pb32">
                                     <a href="/" class="o_footer_logo logo">
@@ -31,13 +31,13 @@
                                         <div class="smaller text-muted">Get an instant quote for your vehicle, sign up, track your delivery and receive it at your desired destination.</div>
                                         <div class="d-flex pt16 pb16">
                                             <a href="/website/social/twitter" class="me-n5" target="_blank">
-                                                <img class="w-50" src="website_quickship/static/src/img/footer/fb_footer.png"/>
+                                                <img class="w-50" src="/web/image/website_quickship.qs_fb"/>
                                             </a>
                                             <a href="/website/social/twitter" class="me-n5" target="_blank">
-                                                <img class="w-50" src="website_quickship/static/src/img/footer/tweet.png"/>
+                                                <img class="w-50" src="/web/image/website_quickship.qs_twitter"/>
                                             </a>
                                             <a href="/website/social/instagram" class="me-n5" target="_blank">
-                                                <img class="w-50" src="website_quickship/static/src/img/footer/insta.png"/>
+                                                <img class="w-50" src="/web/image/website_quickship.qs_insta"/>
                                             </a>
                                         </div>
                                     </div>
@@ -67,7 +67,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-center pt16 pb16" >@All Rights Reserved.</div>
+                        <!-- Footer Shape -->
+                        <div class="w-100 position-relative">
+                            <img class="w-100" src="/web/image/website_quickship.qs_footer_bg_shape" alt="Background Shape"/>
+                            <div class="position-absolute x_ft_shape">@All Rights Reserved.</div>
+                        </div>
                     </section>
                 </div>
             </xpath>
