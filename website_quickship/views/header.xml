@@ -21,7 +21,7 @@
         <field name="arch" type="xml">
             <xpath expr="//header//nav" position="replace">
                 <t t-call="website.navbar">
-                    <t t-set="_navbar_classes" t-valuef="d-none d-lg-block p-0 shadow-sm"/>
+                    <t t-set="_navbar_classes" t-valuef="d-none d-lg-block p-0 shadow-sm x_header_bg"/>
                     <div id="o_main_nav" class="container flex-wrap pt-2">
                         <div class="o_header_hide_on_scroll d-grid align-items-center w-100 o_grid_header_3_cols pb-3">
                             <ul class="navbar-nav align-items-center gap-1">
@@ -51,10 +51,7 @@
                                 <t t-call="portal.placeholder_user_sign_in">
                                     <t t-set="_link_class" t-valuef="o_navlink_background btn rounded-circle text-reset"/>
                                 </t>
-                                <!-- Contact Number -->
-                                <!-- Text element -->
                                 <t t-call="website.placeholder_header_text_element"/>
-                                <!-- Call To Action -->
                             </ul>
                         </div>
                         <div class="border border-bottom-0 border-light mb-2 w-100"/>
@@ -72,8 +69,6 @@
                                     </t>
                                 </t>
                             </t>
-                            <!-- <t t-call="website.placeholder_header_call_to_action"/> -->
-                            <!-- <button class="btn btn-primary">Contact Us</button> -->
                             <ul id="top_menu" role="menu" class="nav navbar-nav pb-0">
                                 <li class="nav-item">
                                     <a role="button" href="/contact-us" class="btn btn-primary nav-link">
@@ -82,11 +77,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- <ul class="navbar-nav align-items-center gap-1 flex-wrap justify-content-end ms-auto">
-                                <button class="btn btn-primary">Contact Us</button>
-                        </ul> -->
                     </div>
                 </t>
+                <!-- TODO: update header for mobile -->
                 <t t-call="website.template_header_mobile"/>
             </xpath>
         </field>

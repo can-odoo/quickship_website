@@ -29,28 +29,85 @@
         <field name="sequence" type="int">2</field>
     </record>
 
-    <!-- service dropwon -->
-    <record id="menu_services_item_1" model="website.menu">
-        <field name="name">Item 1</field>
-        <field name="url">/dropdown/item-1</field>
+    <!-- menu and submenu of international services -->
+    <record id="international_menu" model="website.menu">
+        <field name="name">International Services</field>
         <field name="website_id">1</field>
         <field name="parent_id" ref="website_quickship.services_menu"/>
         <field name="sequence" type="int">1</field>
     </record>
-    <record id="menu_services_item_2" model="website.menu">
-        <field name="name">Item 2</field>
-        <field name="url">/dropdown/item-2</field>
+    <record id="hawaii_submenu" model="website.menu">
+        <field name="name">Car Shipping to Hawaii</field>
+        <field name="url">/service/hawaii</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.international_menu"/>
+        <field name="sequence" type="int">1</field>
+    </record>
+    <record id="alaska_submenu" model="website.menu">
+        <field name="name">Car Shipping to Alaska</field>
+        <field name="url">/service/alaska</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.international_menu"/>
+        <field name="sequence" type="int">2</field>
+    </record>
+    <record id="puerto_rico_submenu" model="website.menu">
+        <field name="name">Car Shipping to Puerto Rico</field>
+        <field name="url">/service/puerto_rico</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.international_menu"/>
+        <field name="sequence" type="int">2</field>
+    </record>
+
+    <!-- menu and submenu of nationwide services -->
+    <record id="nationwide_menu" model="website.menu">
+        <field name="name">Nationwide Services</field>
         <field name="website_id">1</field>
         <field name="parent_id" ref="website_quickship.services_menu"/>
         <field name="sequence" type="int">2</field>
     </record>
-    <record id="menu_services_item_3" model="website.menu">
-        <field name="name">Item 3</field>
-        <field name="url">/dropdown/item-3</field>
+    <record id="dtd_ship_submenu" model="website.menu">
+        <field name="name">Door to Door shipping</field>
+        <field name="url">/service/dtd_ship</field>
         <field name="website_id">1</field>
-        <field name="parent_id" ref="website_quickship.services_menu"/>
+        <field name="parent_id" ref="website_quickship.nationwide_menu"/>
+        <field name="sequence" type="int">1</field>
+    </record>
+    <record id="exp_auto_ship_submenu" model="website.menu">
+        <field name="name">Expedited Auto Shipping</field>
+        <field name="url">/service/exp-auto-ship</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.nationwide_menu"/>
+        <field name="sequence" type="int">2</field>
+    </record>
+    <record id="opn_auto_ship_submenu" model="website.menu">
+        <field name="name">Open Auto shipping</field>
+        <field name="url">/service/opn-auto-ship</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.nationwide_menu"/>
         <field name="sequence" type="int">3</field>
     </record>
+    <record id="auto_ship_submenu" model="website.menu">
+        <field name="name">Enclosed Auto Transport</field>
+        <field name="url">/service/en-auto-ship</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.nationwide_menu"/>
+        <field name="sequence" type="int">4</field>
+    </record>
+    <record id="byk_ship_submenu" model="website.menu">
+        <field name="name">Motorbike Shipping</field>
+        <field name="url">/service/byk-ship</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.nationwide_menu"/>
+        <field name="sequence" type="int">5</field>
+    </record>
+    <record id="boat_ship_submenu" model="website.menu">
+        <field name="name">Boat Shipping</field>
+        <field name="url">/service/boat-ship</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="website_quickship.nationwide_menu"/>
+        <field name="sequence" type="int">6</field>
+    </record>
+
 
     <!-- About us -->
     <record id="about_us_menu" model="website.menu">
