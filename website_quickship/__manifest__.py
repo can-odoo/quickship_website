@@ -17,7 +17,9 @@
         'data/pages/about_us.xml',
         'data/pages/contact_us.xml',
         'data/pages/page_not_found.xml',
-
+        'data/pages/services/international/hawaii.xml',
+        'data/pages/services/international/alaska.xml',
+        'data/pages/services/international/puertoRico.xml',
         # header
         'views/header.xml',
         'views/footer.xml',
@@ -33,6 +35,7 @@
         'web.assets_frontend': [
             'website_quickship/static/src/scss/layout/header.scss',
             'website_quickship/static/src/scss/layout/footer.scss',
+            'website_quickship/static/src/scss/theme.scss',
             # Interactivity, js files
             # 'website_quickship/static/src/js/theme.js',
         ],
