@@ -22,6 +22,9 @@
         'views/header.xml',
         'views/footer.xml',
 
+        # Common views
+        'views/quote_button.xml'
+
     ],
     'assets': {
         'web._assets_primary_variables': [
@@ -33,6 +36,8 @@
         'web.assets_frontend': [
             'website_quickship/static/src/scss/layout/header.scss',
             'website_quickship/static/src/scss/layout/footer.scss',
+            'website_quickship/static/src/scss/layout/quote_button.scss',
+            'website_quickship/static/src/js/quote_button.js'
             # Interactivity, js files
             # 'website_quickship/static/src/js/theme.js',
         ],
