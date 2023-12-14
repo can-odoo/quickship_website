@@ -56,4 +56,127 @@
         <field name="public" eval="True"/>
     </record>
 
+    <!-- About Us Page-->
+    <record id="qs_aboutus_bg_1" model="ir.attachment">
+        <field name="name">quickship_aboutus_bg_1</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/about_us/aboutus_1.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_aboutus_bg_cover" model="ir.attachment">
+        <field name="name">quickship_aboutus_bg_cover</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/about_us/aboutus_bg_cover_img.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_aboutus_bg_2" model="ir.attachment">
+        <field name="name">quickship_aboutus_bg_2</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/about_us/aboutus_3.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_aboutus_q_letter" model="ir.attachment">
+        <field name="name">quickship_aboutus_q_letter</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/about_us/aboutus_2.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_aboutus_mission_img_1" model="ir.attachment">
+        <field name="name">quickship_aboutus_mission_img_1</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/about_us/aboutus_mission_1.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_aboutus_mission_img_2" model="ir.attachment">
+        <field name="name">quickship_aboutus_mission_img_1</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/about_us/aboutus_mission_2.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_aboutus_mission_img_3" model="ir.attachment">
+        <field name="name">quickship_aboutus_mission_img_1</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/about_us/aboutus_mission_3.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_aboutus_mission_img_4" model="ir.attachment">
+        <field name="name">quickship_aboutus_mission_img_1</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/about_us/aboutus_mission_4.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_aboutus_mission_img_5" model="ir.attachment">
+        <field name="name">quickship_aboutus_mission_img_1</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/about_us/aboutus_mission_5.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <!-- Contactus Page -->
+    <record id="qs_contactus_bg_1" model="ir.attachment">
+        <field name="name">quickship_contactus_bg_1</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_1.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_contactus_bg_cover" model="ir.attachment">
+        <field name="name">quickship_contactus_bg_cover</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_bg_cover_1.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_contactus_bg_2" model="ir.attachment">
+        <field name="name">quickship_contactus_bg_2</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_2.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_contactus_call_icon" model="ir.attachment">
+        <field name="name">quickship_contactus_call_icon</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_gitwu_1.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_contactus_mail_icon" model="ir.attachment">
+        <field name="name">quickship_contactus_mail_icon</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_gitwu_2.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_contactus_time_icon" model="ir.attachment">
+        <field name="name">quickship_contactus_time_icon</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_gitwu_3.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_contactus_sm_facebook" model="ir.attachment">
+        <field name="name">quickship_contactus_sm_facebook</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_sm_1.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_contactus_sm_pinterest" model="ir.attachment">
+        <field name="name">quickship_contactus_sm_pinterest</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_sm_2.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_contactus_sm_twitter" model="ir.attachment">
+        <field name="name">quickship_contactus_sm_twitter</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_sm_3.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_contactus_sm_whatsapp" model="ir.attachment">
+        <field name="name">quickship_contactus_sm_whatsapp</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_sm_4.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    <record id="qs_contactus_sm_instagram" model="ir.attachment">
+        <field name="name">quickship_contactus_sm_instagram</field>
+        <field name="datas" type="base64" file="website_quickship/static/src/img/contact_us/contactus_sm_5.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
 </odoo>

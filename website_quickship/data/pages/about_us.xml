@@ -4,10 +4,9 @@
         <t t-call="website.layout">
             <div id="wrap" class="oe_structure oe_empty text-muted">
                 <!-- About us Button snippet -->
-                <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt168 pb96 o_colored_level d-flex flex-column justify-content-center" style="height:75vh">
-                         <span class="s_parallax_bg opacity-50" style="background-image: url(/website_quickship/static/src/img/about_us/aboutus_1.png); background-size:cover; background-position:center;"/>
+                <section class="s_cover pt96 pb96 o_colored_level s_parallax_no_overflow_hidden oe_img_bg o_bg_img_center d-flex flex-column justify-content-center" style="background-image: url(/web/image/website_quickship.qs_aboutus_bg_cover), url(/web/image/website_quickship.qs_aboutus_bg_1); height:55vh;">
                     <div class="o_we_bg_filter bg-primary-50"/>
-                    <div class="container s_allow_columns text-center">
+                    <div class="container s_allow_columns text-center pt96">
                         <button type="button" class="btn btn-outline-light border border-light border-3 rounded-pill">
                             <span class="display-6 px-5 fw-bolder"> ABOUT US </span>
                         </button>
@@ -26,7 +25,7 @@
                                 <div class="container">
                                     <div class="d-flex">
                                         <div>
-                                            <img alt="" src="/website_quickship/static/src/img/about_us/aboutus_2.png" class="h-100 w-100 img-fluid mx-auto o_editable_media" loading="lazy"/>
+                                            <img alt="" src="/web/image/website_quickship.qs_aboutus_q_letter" class="h-100 w-100 img-fluid mx-auto o_editable_media" loading="lazy"/>
                                         </div>
                                         <div class="ms-2 my-auto">
                                             <p class="m-auto fs-6">We are QuickShip, and we do what we promise. We deliver your vehicle quickly, safely, and to any corner of the nation. When you choose QuickShip Cars, you choose peace of mind.</p>
@@ -46,39 +45,39 @@
                 <section class="s_references pt48 pb32 o_colored_level">
                     <section>
                         <h2 class="fst-italic pb24 text-center">Our Mission!</h2>
-                        <div class="container">
-                            <div style="text-align: center;">
-                                    <span class="fs-base fs-5">At QuickShip Cars, our mission is to provide the most reliable, efficient, and customer-centric<br/> auto shipping services in the USA.</span>
+                        <div class="container text-center fs-5">
+                            <div>
+                                <span>At QuickShip Cars, our mission is to provide the most reliable, efficient, and customer-centric<br/> auto shipping services in the USA.</span>
                             </div>
-                            <div style="text-align: center;">
-                                <span class="base-fs fs-5">We are committed to simplifying the vehicle transportation process for our clients, ensuring their cars arrive<br/> safely and swiftly at their chosen destinations.&amp;nbsp;</span>
+                            <div>
+                                <span>We are committed to simplifying the vehicle transportation process for our clients, ensuring their cars arrive<br/> safely and swiftly at their chosen destinations.&amp;nbsp;</span>
                             </div>
-                            <div style="text-align: center;">
-                                <span class="base-fs fs-5">We aim to be the trusted partner for individuals and businesses, delivering peace of mind with every shipment.</span><br/>
+                            <div>
+                                <span>We aim to be the trusted partner for individuals and businesses, delivering peace of mind with every shipment.</span><br/>
                             </div>
                         </div>
                     </section>
                     <section class="container">
                         <div class="row equal-height-row ">
                             <div class="col-1 pt16 pb16 px-0 o_colored_level"/>
-                            <div class="col-2 pt16 pb16 px-0 o_colored_level" >
-                                <img src="/website_quickship/static/src/img/about_us/aboutus_mission_1.png" class="img mx-auto p-3" width="128" height="128" style="object-fit: contain;" alt="" loading="lazy"/>
+                            <div class="col-lg-2 pt16 pb16 px-0 o_colored_level" >
+                                <img src="/web/image/website_quickship.qs_aboutus_mission_img_1" class="img mx-auto p-3" width="128" height="128" style="object-fit: contain;" alt="" loading="lazy"/>
                                 <h5 class="text-center text-muted">Enclosed</h5>
                             </div>
-                            <div class="col-2 pt16 pb16 px-0 o_colored_level" >
-                                <img src="/website_quickship/static/src/img/about_us/aboutus_mission_2.png" class="img mx-auto p-3" style="object-fit: contain;" width="128" height="128" alt="" loading="lazy"/>
+                            <div class="col-lg-2 pt16 pb16 px-0 o_colored_level" >
+                                <img src="/web/image/website_quickship.qs_aboutus_mission_img_2" class="img mx-auto p-3" style="object-fit: contain;" width="128" height="128" alt="" loading="lazy"/>
                                 <h5 class="text-center text-muted">Door to Door</h5>
                             </div>
-                            <div class="col-2 pt16 pb16 px-0 o_colored_level">
-                                <img src="/website_quickship/static/src/img/about_us/aboutus_mission_3.png" class="img mx-auto p-3" style="object-fit: contain;" width="128" height="128" alt="" loading="lazy"/>
+                            <div class="col-lg-2 pt16 pb16 px-0 o_colored_level">
+                                <img src="/web/image/website_quickship.qs_aboutus_mission_img_3" class="img mx-auto p-3" style="object-fit: contain;" width="128" height="128" alt="" loading="lazy"/>
                                 <h5 class="text-center text-muted">Nationwide auto shipping</h5>
                             </div>
-                            <div class="col-2 pt16 pb16 px-0 o_colored_level">
-                                <img src="/website_quickship/static/src/img/about_us/aboutus_mission_4.png" class="img mx-auto p-3" width="128" height="128" style="object-fit: contain;" alt="" loading="lazy"/>
+                            <div class="col-lg-2 pt16 pb16 px-0 o_colored_level">
+                                <img src="/web/image/website_quickship.qs_aboutus_mission_img_4" class="img mx-auto p-3" width="128" height="128" style="object-fit: contain;" alt="" loading="lazy"/>
                                 <h5 class="text-center text-muted">Open</h5>
                             </div>
-                            <div class="col-2 pt16 pb16 px-0 o_colored_level">
-                                <img src="/website_quickship/static/src/img/about_us/aboutus_mission_5.png" class="img mx-auto p-3" width="128" height="128" style="object-fit: contain;" alt="" loading="lazy"/>
+                            <div class="col-lg-2 pt16 pb16 px-0 o_colored_level">
+                                <img src="/web/image/website_quickship.qs_aboutus_mission_img_5" class="img mx-auto p-3" width="128" height="128" style="object-fit: contain;" alt="" loading="lazy"/>
                                 <h5 class="text-center text-muted">Expedited auto shipping</h5>
                             </div>
                             <div class="col-1 pt16 pb16 o_colored_level"/>
@@ -123,20 +122,20 @@
                 <!-- Our Statement -->
                 <section class="pb64 pt64">
                     <h2 class="fst-italic pb24 text-center">Our Statement!</h2>
-                    <div class="container">
-                        <div class="text-center">
-                            <span class="fs-base fs-5">QuickShip Cars is more than just an auto shipping company; we are your <br/> trusted partner in vehicle transportation.</span>
+                    <div class="container text-center">
+                        <div>
+                            <span class="fs-5">QuickShip Cars is more than just an auto shipping company; we are your <br/> trusted partner in vehicle transportation.</span>
                         </div>
-                        <div class="text-center">
-                            <span class="base-fs fs-5">Our mission is to simplify the process of moving your car, making it fast, safe, and stress-free.</span>
+                        <div>
+                            <span class="fs-5">Our mission is to simplify the process of moving your car, making it fast, safe, and stress-free.</span>
                         </div>
-                        <div class="text-center">
-                            <span class="base-fs fs-5">We do this by upholding our core values of reliability,<br/>efficiency, and customer-centricity</span>
+                        <div>
+                            <span class="fs-5">We do this by upholding our core values of reliability,<br/>efficiency, and customer-centricity</span>
                         </div>
                     </div>
                 </section>
                 <!-- Join the carrier -->
-                <section class="s_cover parallax s_parallax_is_fixed bg-black-50 o_colored_level pb32 pt32" style="background-image: url(/website_quickship/static/src/img/about_us/aboutus_3.png); background-size:cover;">
+                <section class="s_cover parallax s_parallax_is_fixed bg-black-50 o_colored_level pb32 pt32" style="background-image: url(/web/image/website_quickship.qs_aboutus_bg_2); background-size:cover;">
                     <div class="container s_allow_columns o_container_small">
                         <h1 class="display-5 pb12" style="text-align: center; font-weight: bold;">Join Our Carrier Network</h1>
                         <p class="lead container text-center">Expand your horizons and elevate your business by joining Quickship's Carrier Network.Partner with us to access a world of opportunities, competitive rates, and seamless collaborations. Together, let's drive success in auto shipping and deliver excellence to our clients.</p>

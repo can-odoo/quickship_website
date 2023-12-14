@@ -1,0 +1,24 @@
+<odoo>
+    <template id="scroll_button" name="Button" inherit_id="website.layout">
+        <xpath expr="//div[@id='o_shared_blocks']" position="before">
+            <div class="s_popup o_newsletter_popup o_snippet_invisible d-none" data-name="Newsletter Popup" data-vcss="001" data-snippet="s_newsletter_subscribe_popup" id="sPopup1702471629622" data-invisible="1">
+                <div class="modal fade s_popup_middle o_newsletter_modal modal_shown d-block" style="background-color: var(--black-50) !important;" data-show-after="5000" data-display="afterDelay" data-consents-duration="7" data-bs-focus="false" data-bs-backdrop="false" tabindex="-1" aria-hidden="true">
+                    <!-- TODO: Call the snippet you want to display -->
+                    <h1> TO DO: Add Your snippet to be display </h1> 
+                </div>
+            </div>
+        </xpath>
+        <xpath expr="//div[@id='o_shared_blocks']" position="attributes">
+            <attribute name="style">  
+                position: fixed;
+                z-index: 1;
+                right: 0;
+                bottom: 70%;
+            </attribute>
+        </xpath>
+        <xpath expr="//div[@id='o_shared_blocks']" position="inside">
+            <button id="common_button" class="btn btn-primary">
+            </button>
+        </xpath>
+    </template>
+</odoo>
