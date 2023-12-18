@@ -31,15 +31,15 @@
 
     <!-- service dropwon -->
     <record id="menu_services_item_1" model="website.menu">
-        <field name="name">Item 1</field>
-        <field name="url">/dropdown/item-1</field>
+        <field name="name">Nationwide Services</field>
+        <field name="url">/dropdown/nationwide-services</field>
         <field name="website_id">1</field>
         <field name="parent_id" ref="website_quickship.services_menu"/>
         <field name="sequence" type="int">1</field>
     </record>
     <record id="menu_services_item_2" model="website.menu">
-        <field name="name">Item 2</field>
-        <field name="url">/dropdown/item-2</field>
+        <field name="name">International Services</field>
+        <field name="url">/dropdown/international-services</field>
         <field name="website_id">1</field>
         <field name="parent_id" ref="website_quickship.services_menu"/>
         <field name="sequence" type="int">2</field>

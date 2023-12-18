@@ -5,7 +5,7 @@
             <div id="wrap" class="oe_structure oe_empty text-muted">
                 <!-- About us Button snippet -->
                 <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt168 pb96 o_colored_level d-flex flex-column justify-content-center" style="height:75vh">
-                         <span class="s_parallax_bg opacity-50" style="background-image: url(/website_quickship/static/src/img/about_us/aboutus_1.png); background-size:cover; background-position:center;"/>
+                    <span class="s_parallax_bg opacity-50" style="background-image: url(/website_quickship/static/src/img/about_us/aboutus_1.png); background-size:cover; background-position:center;"/>
                     <div class="o_we_bg_filter bg-primary-50"/>
                     <div class="container s_allow_columns text-center">
                         <button type="button" class="btn btn-outline-light border border-light border-3 rounded-pill">

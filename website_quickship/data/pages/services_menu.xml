@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="nationwide_services" name="Nationwide Services">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty text-muted">
+                <section class="s_cover parallax s_parallax_is_fixed bg-black-75 pt96 pb96 d-flex flex-column justify-content-center" style="height:60vh">
+                    <span class="s_parallax_bg opacity-50" style="background-image: url('/website_quickship/static/src/img/services/Asset 118@2x-8.png'); background-size:cover; background-position:center;"/>
+                    <div class="bg-primary-50"/>
+                    <div class="col-lg-3 ml32">
+                        <h1 class="display-3" style="font-weight: bold;">Door to Door shipping</h1>
+                        <p class="lead">Your Trusted Partner for Effortless and Reliable Vehicle Transportation.</p>
+                    </div>
+                </section>
+                <section class="s_text_image pt32 pb32" data-snippet="s_text_image">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-4 pt16 pb16">
+                                <img src="/website_quickship/static/src/img/services/Asset 116@2x-8.png" class="img img-fluid mx-auto" alt="Odoo • Image and Text"/>
+                            </div>
+                            <div class="col-lg-8 pt16 pb16 o_draggable o_colored_level">
+                                <h2 class="o_default_snippet_text">What is Quickship’s door-to-door vehicle transportation?</h2>
+                                <p class="o_default_snippet_text">Door-to-door auto shipping offers the convenience of picking up and delivering vehicles directly between specified locations, streamlining the transportation process for vehicle owners.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_text_image pt32 pb32" data-snippet="s_text_image">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8 pt16 pb16">
+                                <h2 class="o_default_snippet_text text-end">What is unique about Quickship Door-to-door auto shipping?</h2>
+                                <p class="o_default_snippet_text text-end">Quickship Door-to-Door Auto Shipping distinguishes itself through a seamless and customer-centric approach. Our unique commitment to efficiency and reliability ensures a stress-free experience
+                                    for clients. With a focus on timely and secure transportation, Quickship stands as a trusted choice, providing the convenience and peace of mind you deserve in your vehicle shipping journey.</p>
+                                <p class="o_default_snippet_text text-end">While door-to-door vehicle shipping can often incur high costs, QuickShip Auto Transportation strives to minimize these expenses. Consider the following reasons why
+                                    choosing QuickShip for your door-to-door auto shipping needs is a wise decision.</p>
+                            </div>
+                            <div class="col-lg-4 pt16 pb16">
+                                <img src="/website_quickship/static/src/img/services/Asset 117@2x-8.png" class="img img-fluid mx-auto" alt="Odoo • Image and Text"/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_title pt40 pb40" data-vcss="001">
+                    <div class="container s_allow_columns">
+                        <h2 class="display-5-fs" style="text-align: center;">Why choose Quickship for DOOR TO DOOR auto shipping?</h2>
+                    </div>
+                </section>
+                <section class="s_timeline pt24 pb48">
+                    <div class="container s_timeline_line">
+                        <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                            <div class="s_timeline_content d-flex">
+                                <img src="/website_quickship/static/src/img/services/Asset 110@2x-8.png" class="img img-fluid mx-auto" alt="Odoo • Image and Text"/>
+                            </div>
+                            <div class="s_timeline_content d-flex">
+                                <div class="pt16 pb16">
+                                    <div class="d-flex">
+                                        <h2 class="o_default_snippet_text">Cost Effective Solutions.</h2>
+                                        <img src="/website_quickship/static/src/img/services/Asset 112@2x-8.png" class="img img-fluid o_image_64_cover" alt="Odoo • Image and Text"/>
+                                    </div>
+                                    <p class="o_default_snippet_text">Quickship offers competitive rates for door-to-door auto shipping, helping you save on transportation expenses without compromising on service quality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                            <div class="s_timeline_content d-flex">
+                                <div class="pt16 pb16">
+                                    <h2 class="o_default_snippet_text">Streamlined Logistics.</h2>
+                                    <p class="o_default_snippet_text">Our efficient logistics ensure a smooth and hassle-free experience. Quickship handles the entire process, from pick-up to delivery, with precision, minimizing delays and providing peace of mind.</p>
+                                </div>
+                            </div>
+                            <div class="s_timeline_content d-flex">
+                                <img src="/website_quickship/static/src/img/services/Asset 109@2x-8.png" class="img img-fluid mx-auto" alt="Odoo • Image and Text"/>
+                            </div>
+                        </div>
+                        <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                            <div class="s_timeline_content d-flex">
+                                <img src="/website_quickship/static/src/img/services/Asset 108@2x-8.png" class="img img-fluid mx-auto" alt="Odoo • Image and Text"/>
+                            </div>
+                            <div class="s_timeline_content d-flex">
+                                <div class="pt16 pb16">
+                                    <h2 class="o_default_snippet_text">Secure and Prompt Delivery.</h2>
+                                    <p class="o_default_snippet_text">With a commitment to the safety of your vehicle, Quickship ensures secure transportation. We prioritize timely deliveries, so you can rely on us to get your vehicle to its destination promptly and in excellent condition.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                            <div class="s_timeline_content d-flex">
+                                <div class="pt16 pb16">
+                                    <h2 class="o_default_snippet_text">Reliable Service.</h2>
+                                    <p class="o_default_snippet_text">Quickship has built a reputation for reliability in the auto transportation industry. Our customers trust us for dependable door-to-door shipping, making us a preferred choice for those seeking a trustworthy and efficient solution.</p>
+                                </div>
+                            </div>
+                            <div class="s_timeline_content d-flex">
+                                <img src="/website_quickship/static/src/img/services/Asset 107@2x-8.png" class="img img-fluid mx-auto" alt="Odoo • Image and Text"/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+    <template id="international_services" name="Nationwide Services">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty text-muted">
+                HII
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -17,6 +17,7 @@
         'data/pages/about_us.xml',
         'data/pages/contact_us.xml',
         'data/pages/page_not_found.xml',
+        'data/pages/services_menu.xml',
 
         # header
         'views/header.xml',
